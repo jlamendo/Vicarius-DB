@@ -72,7 +72,7 @@ server.pack.register(Basic, function(err) {
             }
           }
         })(), function(err, results) {
-          reply(results);
+          reply(results.reverse());
         })
       } else {
         db.httpExchange.allSortByIndex('savedAt', (function() {
@@ -89,7 +89,7 @@ server.pack.register(Basic, function(err) {
             }
           }
         })(), function(err, results) {
-          reply(results);
+          reply(results.reverse());
         })
       }
     },
