@@ -22,10 +22,9 @@
    "bugs": {
     "url": "https://github.com/jlamendo/vicarius-db/issues"
   },
-  "main": "index.js",
   "keywords": [
     "Vicarius",
     "Proxy",
     "Mitm"
-  ],
+  ]
 }
