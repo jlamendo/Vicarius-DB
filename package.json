@@ -1,18 +1,31 @@
 {
   "name": "vicarius-db",
-  "version": "0.0.4",
-  "description": "Proxy History DB Component for Vicarius",
+  "version": "0.1.0",
+  "description": "DB Component for Vicarius Proxy System.",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL",
   "dependencies": {
     "dulcimer": "^2.0.5",
     "hapi": "^6.4.0",
     "hapi-auth-basic": "^1.1.1",
     "bcrypt": "^0.8.0",
     "mmmagic": "^0.3.8"
-  }
+  },
+    "repository": {
+    "type": "git",
+    "url": "git://github.com/jlamendo/vicarius-db.git"
+  },
+   "bugs": {
+    "url": "https://github.com/jlamendo/vicarius-db/issues"
+  },
+  "main": "index.js",
+  "keywords": [
+    "Vicarius",
+    "Proxy",
+    "Mitm"
+  ],
 }
