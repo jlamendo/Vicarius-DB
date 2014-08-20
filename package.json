@@ -13,13 +13,14 @@
     "hapi": "^6.4.0",
     "hapi-auth-basic": "^1.1.1",
     "bcrypt": "^0.8.0",
-    "mmmagic": "^0.3.8"
+    "mmmagic": "^0.3.8",
+    "joi": "^4.6.2"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git://github.com/jlamendo/vicarius-db.git"
   },
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/jlamendo/vicarius-db/issues"
   },
   "keywords": [
