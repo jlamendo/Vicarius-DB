@@ -20,7 +20,8 @@
     "multilevel": "^6.0.1",
     "mudskipper": "^2.3.2",
     "faye": "^1.0.3",
-    "bucker": "^1.0.11"
+    "bucker": "^1.0.11",
+    "vicarius-auth": "git+ssh://git@github.com/jlamendo/vicarius-auth#"
   },
   "repository": {
     "type": "git",
